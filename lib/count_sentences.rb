@@ -19,7 +19,7 @@ class String
     array = self.split(/[.?!]/)
     #senetence_count = array.count("..."||".") + array.count("??"||"?") + array.count("!!"||"!")
     #binding.pry
-    array.
+    array.delete_if{
     return senetence_count
     #array.each do |x|
      #if x.include?("."||"..."||"?"||"??"||"!"||"!!!")
