@@ -19,8 +19,8 @@ class String
     array = self.split(/[.?!]/)
     #senetence_count = array.count("..."||".") + array.count("??"||"?") + array.count("!!"||"!")
     #binding.pry
-    array.delete_if{|sentence|
-    return senetence_count
+    array.delete_if{|sentence| sentence.empty?}
+    array.length
     #array.each do |x|
      #if x.include?("."||"..."||"?"||"??"||"!"||"!!!")
        #sentence_count += 1
