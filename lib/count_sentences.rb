@@ -19,7 +19,7 @@ class String
     array = self.split("")
     array.each do |x|
      if x.include?("."||"..."||"?"||"??"||"!"||"!!!")
-       sentence_count += 1
+       sentence_count + 1
        end 
      end 
     return sentence_count
