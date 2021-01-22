@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     sentence_count = 0 
-    array = self.split
+    array = self.split(" ")
     array.each do |x|
      if x.include?("."||"..."||"?"||"??"||"!"||"!!!")
        sentence_count += 1
