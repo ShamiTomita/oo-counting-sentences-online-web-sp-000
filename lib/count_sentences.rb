@@ -17,13 +17,9 @@ class String
   def count_sentences
     sentence_count = 0 
     array = self.split
-    #senetence_count = array.count("."||"...") + array.count("?"||"??") + array.count("!"||"!!")
-    #binding.pry
-   # return senetence_count
-   array.each do |x|
+    array.each do |x|
      if x.include?("."||"..."||"?"||"??"||"!"||"!!!")
        sentence_count += 1
      end 
     return sentence_count
   end
-end
