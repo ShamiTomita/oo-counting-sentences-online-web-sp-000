@@ -20,6 +20,7 @@ class String
     array.each do |x|
      if x.include?("."||"..."||"?"||"??"||"!"||"!!!")
        sentence_count += 1
+       end 
      end 
     return sentence_count
   end
