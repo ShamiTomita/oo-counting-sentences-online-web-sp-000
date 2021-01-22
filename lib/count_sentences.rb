@@ -18,6 +18,6 @@ class String
     sentence_count = 0 
     array = self.split("")
     senetence_count = array.count(".") + array.count("?")
-    return senetence_count-1
+    return senetence_count
   end
 end
