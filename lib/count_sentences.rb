@@ -18,5 +18,6 @@ class String
     sentence_count = 0 
     array = self.split
     array.count(".")
+    binding.pry
   end
 end
