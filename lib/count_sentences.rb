@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentence_count = 0 
     binding.pry
-    array = self.split
+    array = self.split(/[.?!]/)
     senetence_count = array.count("..."||".") + array.count("??"||"?") + array.count("!!"||"!")
     #binding.pry
     return senetence_count
