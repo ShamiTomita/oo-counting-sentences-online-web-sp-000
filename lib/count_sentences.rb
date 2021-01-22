@@ -22,7 +22,6 @@ class String
        sentence_count += 1
        end 
      end 
-     binding.
     return sentence_count
   end
 end
