@@ -22,7 +22,7 @@ class String
        sentence_count += 1
        end 
      end 
-     binding.pry
+     binding.
     return sentence_count
   end
 end
